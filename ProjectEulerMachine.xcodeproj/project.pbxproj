@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F19962EB1C53638800B2B333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19962EA1C53638800B2B333 /* AppDelegate.swift */; };
-		F19962ED1C53638800B2B333 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19962EC1C53638800B2B333 /* ViewController.swift */; };
 		F19962F01C53638800B2B333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19962EE1C53638800B2B333 /* Main.storyboard */; };
 		F19962F21C53638800B2B333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19962F11C53638800B2B333 /* Assets.xcassets */; };
 		F19962F51C53638800B2B333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19962F31C53638800B2B333 /* LaunchScreen.storyboard */; };
 		F19963001C53638800B2B333 /* ProjectEulerMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19962FF1C53638800B2B333 /* ProjectEulerMachineTests.swift */; };
+		F199630C1C5363E300B2B333 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F199630B1C5363E300B2B333 /* ViewController.swift */; };
+		F19963141C5365B500B2B333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19963131C5365B500B2B333 /* AppDelegate.swift */; };
+		F19963161C5369BD00B2B333 /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19963151C5369BD00B2B333 /* Problem.swift */; };
+		F19963181C536B7200B2B333 /* Problem001.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19963171C536B7200B2B333 /* Problem001.swift */; };
+		F19963191C536B7200B2B333 /* Problem001.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19963171C536B7200B2B333 /* Problem001.swift */; };
+		F199631A1C536B9300B2B333 /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19963151C5369BD00B2B333 /* Problem.swift */; };
+		F19963201C536E1000B2B333 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F199631E1C536E1000B2B333 /* Info.plist */; };
+		F1C2CCEE1C54EA9200468A65 /* ProblemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2CCED1C54EA9200468A65 /* ProblemCell.swift */; };
+		F1C2CCF01C555D9000468A65 /* Problem002.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2CCEF1C555D9000468A65 /* Problem002.swift */; };
+		F1C2CCF21C555E7000468A65 /* Problem003.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2CCF11C555E7000468A65 /* Problem003.swift */; };
+		F1C2CCF41C555F7100468A65 /* Problem004.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2CCF31C555F7100468A65 /* Problem004.swift */; };
+		F1C2CCF61C55640100468A65 /* Problem005.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2CCF51C55640100468A65 /* Problem005.swift */; };
+		F1C2CCF81C5564B500468A65 /* Problem006.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2CCF71C5564B500468A65 /* Problem006.swift */; };
+		F1C2CCFA1C5565C100468A65 /* Problem007.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2CCF91C5565C100468A65 /* Problem007.swift */; };
+		F1C2CCFC1C5569BC00468A65 /* Problem008.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2CCFB1C5569BC00468A65 /* Problem008.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,15 +40,25 @@
 
 /* Begin PBXFileReference section */
 		F19962E71C53638800B2B333 /* ProjectEulerMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectEulerMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F19962EA1C53638800B2B333 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F19962EC1C53638800B2B333 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F19962EF1C53638800B2B333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F19962F11C53638800B2B333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F19962F11C53638800B2B333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ProjectEulerMachine/Assets.xcassets; sourceTree = "<group>"; };
 		F19962F41C53638800B2B333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F19962F61C53638800B2B333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F19962FB1C53638800B2B333 /* ProjectEulerMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectEulerMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19962FF1C53638800B2B333 /* ProjectEulerMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectEulerMachineTests.swift; sourceTree = "<group>"; };
 		F19963011C53638800B2B333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F199630B1C5363E300B2B333 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F19963131C5365B500B2B333 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F19963151C5369BD00B2B333 /* Problem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem.swift; sourceTree = "<group>"; };
+		F19963171C536B7200B2B333 /* Problem001.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem001.swift; sourceTree = "<group>"; };
+		F199631E1C536E1000B2B333 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C2CCED1C54EA9200468A65 /* ProblemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemCell.swift; sourceTree = "<group>"; };
+		F1C2CCEF1C555D9000468A65 /* Problem002.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem002.swift; sourceTree = "<group>"; };
+		F1C2CCF11C555E7000468A65 /* Problem003.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem003.swift; sourceTree = "<group>"; };
+		F1C2CCF31C555F7100468A65 /* Problem004.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem004.swift; sourceTree = "<group>"; };
+		F1C2CCF51C55640100468A65 /* Problem005.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem005.swift; sourceTree = "<group>"; };
+		F1C2CCF71C5564B500468A65 /* Problem006.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem006.swift; sourceTree = "<group>"; };
+		F1C2CCF91C5565C100468A65 /* Problem007.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem007.swift; sourceTree = "<group>"; };
+		F1C2CCFB1C5569BC00468A65 /* Problem008.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem008.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				F19962E91C53638800B2B333 /* ProjectEulerMachine */,
+				F19962F11C53638800B2B333 /* Assets.xcassets */,
 				F19962FE1C53638800B2B333 /* ProjectEulerMachineTests */,
 				F19962E81C53638800B2B333 /* Products */,
 			);
@@ -77,12 +101,11 @@
 		F19962E91C53638800B2B333 /* ProjectEulerMachine */ = {
 			isa = PBXGroup;
 			children = (
-				F19962EA1C53638800B2B333 /* AppDelegate.swift */,
-				F19962EC1C53638800B2B333 /* ViewController.swift */,
-				F19962EE1C53638800B2B333 /* Main.storyboard */,
-				F19962F11C53638800B2B333 /* Assets.xcassets */,
-				F19962F31C53638800B2B333 /* LaunchScreen.storyboard */,
-				F19962F61C53638800B2B333 /* Info.plist */,
+				F19963131C5365B500B2B333 /* AppDelegate.swift */,
+				F19963121C53655700B2B333 /* Problems */,
+				F199630A1C53639700B2B333 /* ViewControllers */,
+				F19963211C536E2E00B2B333 /* Storyboard */,
+				F199630D1C53641500B2B333 /* Supporting Files */,
 			);
 			path = ProjectEulerMachine;
 			sourceTree = "<group>";
@@ -94,6 +117,49 @@
 				F19963011C53638800B2B333 /* Info.plist */,
 			);
 			path = ProjectEulerMachineTests;
+			sourceTree = "<group>";
+		};
+		F199630A1C53639700B2B333 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F199630B1C5363E300B2B333 /* ViewController.swift */,
+				F1C2CCED1C54EA9200468A65 /* ProblemCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F199630D1C53641500B2B333 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F199631E1C536E1000B2B333 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F19963121C53655700B2B333 /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+				F19963151C5369BD00B2B333 /* Problem.swift */,
+				F19963171C536B7200B2B333 /* Problem001.swift */,
+				F1C2CCEF1C555D9000468A65 /* Problem002.swift */,
+				F1C2CCF11C555E7000468A65 /* Problem003.swift */,
+				F1C2CCF31C555F7100468A65 /* Problem004.swift */,
+				F1C2CCF51C55640100468A65 /* Problem005.swift */,
+				F1C2CCF71C5564B500468A65 /* Problem006.swift */,
+				F1C2CCF91C5565C100468A65 /* Problem007.swift */,
+				F1C2CCFB1C5569BC00468A65 /* Problem008.swift */,
+			);
+			path = Problems;
+			sourceTree = "<group>";
+		};
+		F19963211C536E2E00B2B333 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F19962F31C53638800B2B333 /* LaunchScreen.storyboard */,
+				F19962EE1C53638800B2B333 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19963201C536E1000B2B333 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +264,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F19962ED1C53638800B2B333 /* ViewController.swift in Sources */,
-				F19962EB1C53638800B2B333 /* AppDelegate.swift in Sources */,
+				F1C2CCF81C5564B500468A65 /* Problem006.swift in Sources */,
+				F1C2CCF41C555F7100468A65 /* Problem004.swift in Sources */,
+				F1C2CCFA1C5565C100468A65 /* Problem007.swift in Sources */,
+				F1C2CCEE1C54EA9200468A65 /* ProblemCell.swift in Sources */,
+				F1C2CCF61C55640100468A65 /* Problem005.swift in Sources */,
+				F1C2CCF21C555E7000468A65 /* Problem003.swift in Sources */,
+				F19963141C5365B500B2B333 /* AppDelegate.swift in Sources */,
+				F1C2CCF01C555D9000468A65 /* Problem002.swift in Sources */,
+				F1C2CCFC1C5569BC00468A65 /* Problem008.swift in Sources */,
+				F19963181C536B7200B2B333 /* Problem001.swift in Sources */,
+				F19963161C5369BD00B2B333 /* Problem.swift in Sources */,
+				F199630C1C5363E300B2B333 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +284,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F19963001C53638800B2B333 /* ProjectEulerMachineTests.swift in Sources */,
+				F199631A1C536B9300B2B333 /* Problem.swift in Sources */,
+				F19963191C536B7200B2B333 /* Problem001.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +306,7 @@
 				F19962EF1C53638800B2B333 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ProjectEulerMachine;
 			sourceTree = "<group>";
 		};
 		F19962F31C53638800B2B333 /* LaunchScreen.storyboard */ = {
@@ -235,6 +315,7 @@
 				F19962F41C53638800B2B333 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ProjectEulerMachine;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -327,7 +408,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ProjectEulerMachine/Info.plist;
+				INFOPLIST_FILE = "ProjectEulerMachine/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vjosullivan.ProjectEulerMachine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -338,7 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ProjectEulerMachine/Info.plist;
+				INFOPLIST_FILE = "ProjectEulerMachine/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vjosullivan.ProjectEulerMachine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,6 +469,7 @@
 				F19963061C53638800B2B333 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F19963071C53638800B2B333 /* Build configuration list for PBXNativeTarget "ProjectEulerMachineTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +478,7 @@
 				F19963091C53638800B2B333 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -19,7 +19,6 @@ class Problem010: Problem {
         while p < pMax {
             if isPrime(p) {
                 sumP += p
-                print(p)
             }
             p += 2
         }

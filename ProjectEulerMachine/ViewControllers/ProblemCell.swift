@@ -42,7 +42,7 @@ class ProblemCell: UITableViewCell {
             let result = self.prob?.solve()
             let timeElapsed = CFAbsoluteTimeGetCurrent() - startTime
             dispatch_async(dispatch_get_main_queue()) {
-                print(timeElapsed)
+                //print(timeElapsed)
                 if timeElapsed < 0.001 {
                         self.duration.text = String(format: "%.0fμs", timeElapsed * 1_000_000)
                 } else if timeElapsed < 1 {

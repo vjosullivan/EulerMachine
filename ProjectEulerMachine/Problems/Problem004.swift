@@ -21,7 +21,6 @@ class Problem004: Problem {
                 let p = i * j
                 if isPalindrome(p) && p > largestPalindromeFound {
                     largestPalindromeFound = p
-                    print("\(i) * \(j) = \(p)")
                 }
                 j -= 1
             }

@@ -33,6 +33,8 @@
 		F1C2CCF81C5564B500468A65 /* Problem006.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2CCF71C5564B500468A65 /* Problem006.swift */; };
 		F1C2CCFA1C5565C100468A65 /* Problem007.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2CCF91C5565C100468A65 /* Problem007.swift */; };
 		F1C2CCFC1C5569BC00468A65 /* Problem008.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2CCFB1C5569BC00468A65 /* Problem008.swift */; };
+		F1C2CCFE1C56C6E300468A65 /* Problem015.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2CCFD1C56C6E300468A65 /* Problem015.swift */; };
+		F1C2CCFF1C56C6E300468A65 /* Problem015.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2CCFD1C56C6E300468A65 /* Problem015.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,7 @@
 		F1C2CCF71C5564B500468A65 /* Problem006.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem006.swift; sourceTree = "<group>"; };
 		F1C2CCF91C5565C100468A65 /* Problem007.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem007.swift; sourceTree = "<group>"; };
 		F1C2CCFB1C5569BC00468A65 /* Problem008.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem008.swift; sourceTree = "<group>"; };
+		F1C2CCFD1C56C6E300468A65 /* Problem015.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem015.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +188,7 @@
 				3480F5CC1C56103A00457AC4 /* Problem012.swift */,
 				3480F5D61C56141900457AC4 /* Problem013.swift */,
 				3480F5DD1C5614F700457AC4 /* Problem014.swift */,
+				F1C2CCFD1C56C6E300468A65 /* Problem015.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -307,6 +311,7 @@
 				F1C2CCF41C555F7100468A65 /* Problem004.swift in Sources */,
 				F1C2CCFA1C5565C100468A65 /* Problem007.swift in Sources */,
 				F1C2CCEE1C54EA9200468A65 /* ProblemCell.swift in Sources */,
+				F1C2CCFE1C56C6E300468A65 /* Problem015.swift in Sources */,
 				F1C2CCF61C55640100468A65 /* Problem005.swift in Sources */,
 				3480F5DE1C5614F700457AC4 /* Problem014.swift in Sources */,
 				F1C2CCF21C555E7000468A65 /* Problem003.swift in Sources */,
@@ -329,6 +334,7 @@
 			files = (
 				F19963001C53638800B2B333 /* ProjectEulerMachineTests.swift in Sources */,
 				F199631A1C536B9300B2B333 /* Problem.swift in Sources */,
+				F1C2CCFF1C56C6E300468A65 /* Problem015.swift in Sources */,
 				F19963191C536B7200B2B333 /* Problem001.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

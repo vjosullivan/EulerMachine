@@ -22,11 +22,9 @@ class Problem012: Problem {
             if count > cMax {
                 cMax = count
                 if count > 500 {
-                    print("\nResult is \(triangleN).")
                     break
                 }
             }
-            print(n)
         }
 
         return "\(triangleN)"

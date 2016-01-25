@@ -46,9 +46,9 @@ class ProblemCell: UITableViewCell {
                 if timeElapsed < 0.001 {
                         self.duration.text = String(format: "%.0fμs", timeElapsed * 1_000_000)
                 } else if timeElapsed < 1 {
-                    self.duration.text = String(format: "%.0fms", timeElapsed * 1_000)
+                    self.duration.text = String(format: "%.1fms", timeElapsed * 1_000)
                 } else {
-                    self.duration.text = String(format: "%3.3fs", timeElapsed)
+                    self.duration.text = String(format: "%3.1fs", timeElapsed)
                 }
                 self.solution.textColor = UIColor(red: 0.0, green: 0.5, blue: 0.0, alpha: 1.0)
                 self.solution.text = "Solution: \(result!)."

@@ -34,6 +34,7 @@ class ProblemCell: UITableViewCell {
     @IBOutlet weak var duration: UILabel!
     
     @IBAction func execute() {
+        solution.textColor = UIColor.redColor()
         solution.text = "Thinking..."
         duration.text = ""
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)) {
@@ -49,6 +50,7 @@ class ProblemCell: UITableViewCell {
                 } else {
                     self.duration.text = String(format: "%3.3fs", timeElapsed)
                 }
+                self.solution.textColor = UIColor(red: 0.0, green: 0.5, blue: 0.0, alpha: 1.0)
                 self.solution.text = "Solution: \(result!)."
             }
         }

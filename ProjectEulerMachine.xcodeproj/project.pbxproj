@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3480F5B71C5609D100457AC4 /* Problem009.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3480F5B61C5609D100457AC4 /* Problem009.swift */; };
+		3480F5BF1C560C7E00457AC4 /* Problem010.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3480F5BE1C560C7E00457AC4 /* Problem010.swift */; };
+		3480F5C51C560E3500457AC4 /* Common Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3480F5C41C560E3500457AC4 /* Common Functions.swift */; };
+		3480F5C91C560F4E00457AC4 /* Problem011.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3480F5C81C560F4E00457AC4 /* Problem011.swift */; };
+		3480F5CD1C56103A00457AC4 /* Problem012.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3480F5CC1C56103A00457AC4 /* Problem012.swift */; };
 		F19962F01C53638800B2B333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19962EE1C53638800B2B333 /* Main.storyboard */; };
 		F19962F21C53638800B2B333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19962F11C53638800B2B333 /* Assets.xcassets */; };
 		F19962F51C53638800B2B333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19962F31C53638800B2B333 /* LaunchScreen.storyboard */; };
@@ -41,6 +45,10 @@
 
 /* Begin PBXFileReference section */
 		3480F5B61C5609D100457AC4 /* Problem009.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem009.swift; sourceTree = "<group>"; };
+		3480F5BE1C560C7E00457AC4 /* Problem010.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem010.swift; sourceTree = "<group>"; };
+		3480F5C41C560E3500457AC4 /* Common Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Common Functions.swift"; sourceTree = "<group>"; };
+		3480F5C81C560F4E00457AC4 /* Problem011.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem011.swift; sourceTree = "<group>"; };
+		3480F5CC1C56103A00457AC4 /* Problem012.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem012.swift; sourceTree = "<group>"; };
 		F19962E71C53638800B2B333 /* ProjectEulerMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectEulerMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19962EF1C53638800B2B333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F19962F11C53638800B2B333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ProjectEulerMachine/Assets.xcassets; sourceTree = "<group>"; };
@@ -81,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3480F5C31C560DF000457AC4 /* Common Functions */ = {
+			isa = PBXGroup;
+			children = (
+				3480F5C41C560E3500457AC4 /* Common Functions.swift */,
+			);
+			path = "Common Functions";
+			sourceTree = "<group>";
+		};
 		F19962DE1C53638700B2B333 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +119,7 @@
 		F19962E91C53638800B2B333 /* ProjectEulerMachine */ = {
 			isa = PBXGroup;
 			children = (
+				3480F5C31C560DF000457AC4 /* Common Functions */,
 				F19963131C5365B500B2B333 /* AppDelegate.swift */,
 				F19963121C53655700B2B333 /* Problems */,
 				F199630A1C53639700B2B333 /* ViewControllers */,
@@ -151,6 +168,9 @@
 				F1C2CCF91C5565C100468A65 /* Problem007.swift */,
 				F1C2CCFB1C5569BC00468A65 /* Problem008.swift */,
 				3480F5B61C5609D100457AC4 /* Problem009.swift */,
+				3480F5BE1C560C7E00457AC4 /* Problem010.swift */,
+				3480F5C81C560F4E00457AC4 /* Problem011.swift */,
+				3480F5CC1C56103A00457AC4 /* Problem012.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -268,6 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1C2CCF81C5564B500468A65 /* Problem006.swift in Sources */,
+				3480F5BF1C560C7E00457AC4 /* Problem010.swift in Sources */,
+				3480F5CD1C56103A00457AC4 /* Problem012.swift in Sources */,
 				F1C2CCF41C555F7100468A65 /* Problem004.swift in Sources */,
 				F1C2CCFA1C5565C100468A65 /* Problem007.swift in Sources */,
 				F1C2CCEE1C54EA9200468A65 /* ProblemCell.swift in Sources */,
@@ -277,8 +299,10 @@
 				3480F5B71C5609D100457AC4 /* Problem009.swift in Sources */,
 				F1C2CCF01C555D9000468A65 /* Problem002.swift in Sources */,
 				F1C2CCFC1C5569BC00468A65 /* Problem008.swift in Sources */,
+				3480F5C51C560E3500457AC4 /* Common Functions.swift in Sources */,
 				F19963181C536B7200B2B333 /* Problem001.swift in Sources */,
 				F19963161C5369BD00B2B333 /* Problem.swift in Sources */,
+				3480F5C91C560F4E00457AC4 /* Problem011.swift in Sources */,
 				F199630C1C5363E300B2B333 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

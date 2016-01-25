@@ -19,4 +19,3 @@ class Problem001: Problem {
         return "\(result)"
     }
 }
-

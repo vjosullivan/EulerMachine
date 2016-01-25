@@ -12,6 +12,8 @@
 		3480F5C51C560E3500457AC4 /* Common Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3480F5C41C560E3500457AC4 /* Common Functions.swift */; };
 		3480F5C91C560F4E00457AC4 /* Problem011.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3480F5C81C560F4E00457AC4 /* Problem011.swift */; };
 		3480F5CD1C56103A00457AC4 /* Problem012.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3480F5CC1C56103A00457AC4 /* Problem012.swift */; };
+		3480F5D71C56141900457AC4 /* Problem013.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3480F5D61C56141900457AC4 /* Problem013.swift */; };
+		3480F5DE1C5614F700457AC4 /* Problem014.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3480F5DD1C5614F700457AC4 /* Problem014.swift */; };
 		F19962F01C53638800B2B333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19962EE1C53638800B2B333 /* Main.storyboard */; };
 		F19962F21C53638800B2B333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19962F11C53638800B2B333 /* Assets.xcassets */; };
 		F19962F51C53638800B2B333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19962F31C53638800B2B333 /* LaunchScreen.storyboard */; };
@@ -49,6 +51,8 @@
 		3480F5C41C560E3500457AC4 /* Common Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Common Functions.swift"; sourceTree = "<group>"; };
 		3480F5C81C560F4E00457AC4 /* Problem011.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem011.swift; sourceTree = "<group>"; };
 		3480F5CC1C56103A00457AC4 /* Problem012.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem012.swift; sourceTree = "<group>"; };
+		3480F5D61C56141900457AC4 /* Problem013.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem013.swift; sourceTree = "<group>"; };
+		3480F5DD1C5614F700457AC4 /* Problem014.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem014.swift; sourceTree = "<group>"; };
 		F19962E71C53638800B2B333 /* ProjectEulerMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectEulerMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19962EF1C53638800B2B333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F19962F11C53638800B2B333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ProjectEulerMachine/Assets.xcassets; sourceTree = "<group>"; };
@@ -95,6 +99,22 @@
 				3480F5C41C560E3500457AC4 /* Common Functions.swift */,
 			);
 			path = "Common Functions";
+			sourceTree = "<group>";
+		};
+		3480F5D91C56141D00457AC4 /* Problems000-009 */ = {
+			isa = PBXGroup;
+			children = (
+				F19963171C536B7200B2B333 /* Problem001.swift */,
+				F1C2CCEF1C555D9000468A65 /* Problem002.swift */,
+				F1C2CCF11C555E7000468A65 /* Problem003.swift */,
+				F1C2CCF31C555F7100468A65 /* Problem004.swift */,
+				F1C2CCF51C55640100468A65 /* Problem005.swift */,
+				F1C2CCF71C5564B500468A65 /* Problem006.swift */,
+				F1C2CCF91C5565C100468A65 /* Problem007.swift */,
+				F1C2CCFB1C5569BC00468A65 /* Problem008.swift */,
+				3480F5B61C5609D100457AC4 /* Problem009.swift */,
+			);
+			name = "Problems000-009";
 			sourceTree = "<group>";
 		};
 		F19962DE1C53638700B2B333 = {
@@ -158,19 +178,13 @@
 		F19963121C53655700B2B333 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
+				3480F5D91C56141D00457AC4 /* Problems000-009 */,
 				F19963151C5369BD00B2B333 /* Problem.swift */,
-				F19963171C536B7200B2B333 /* Problem001.swift */,
-				F1C2CCEF1C555D9000468A65 /* Problem002.swift */,
-				F1C2CCF11C555E7000468A65 /* Problem003.swift */,
-				F1C2CCF31C555F7100468A65 /* Problem004.swift */,
-				F1C2CCF51C55640100468A65 /* Problem005.swift */,
-				F1C2CCF71C5564B500468A65 /* Problem006.swift */,
-				F1C2CCF91C5565C100468A65 /* Problem007.swift */,
-				F1C2CCFB1C5569BC00468A65 /* Problem008.swift */,
-				3480F5B61C5609D100457AC4 /* Problem009.swift */,
 				3480F5BE1C560C7E00457AC4 /* Problem010.swift */,
 				3480F5C81C560F4E00457AC4 /* Problem011.swift */,
 				3480F5CC1C56103A00457AC4 /* Problem012.swift */,
+				3480F5D61C56141900457AC4 /* Problem013.swift */,
+				3480F5DD1C5614F700457AC4 /* Problem014.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -294,9 +308,11 @@
 				F1C2CCFA1C5565C100468A65 /* Problem007.swift in Sources */,
 				F1C2CCEE1C54EA9200468A65 /* ProblemCell.swift in Sources */,
 				F1C2CCF61C55640100468A65 /* Problem005.swift in Sources */,
+				3480F5DE1C5614F700457AC4 /* Problem014.swift in Sources */,
 				F1C2CCF21C555E7000468A65 /* Problem003.swift in Sources */,
 				F19963141C5365B500B2B333 /* AppDelegate.swift in Sources */,
 				3480F5B71C5609D100457AC4 /* Problem009.swift in Sources */,
+				3480F5D71C56141900457AC4 /* Problem013.swift in Sources */,
 				F1C2CCF01C555D9000468A65 /* Problem002.swift in Sources */,
 				F1C2CCFC1C5569BC00468A65 /* Problem008.swift in Sources */,
 				3480F5C51C560E3500457AC4 /* Common Functions.swift in Sources */,

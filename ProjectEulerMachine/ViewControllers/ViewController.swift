@@ -33,6 +33,7 @@ class ViewController: UIViewController {
         problems.append(Problem006())
         problems.append(Problem007())
         problems.append(Problem008())
+        problems.append(Problem009())
         return problems
     }
 }

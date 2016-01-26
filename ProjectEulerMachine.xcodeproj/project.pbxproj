@@ -10,6 +10,7 @@
 		341C55A71C5781A100357D46 /* Problem016.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341C55A61C5781A100357D46 /* Problem016.swift */; };
 		341C55AC1C57826600357D46 /* BigInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341C55AB1C57826600357D46 /* BigInteger.swift */; };
 		341C55AD1C57826600357D46 /* BigInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341C55AB1C57826600357D46 /* BigInteger.swift */; };
+		341C56351C57B4CD00357D46 /* BigIntegerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341C56341C57B4CD00357D46 /* BigIntegerTests.swift */; };
 		3480F5B71C5609D100457AC4 /* Problem009.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3480F5B61C5609D100457AC4 /* Problem009.swift */; };
 		3480F5BF1C560C7E00457AC4 /* Problem010.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3480F5BE1C560C7E00457AC4 /* Problem010.swift */; };
 		3480F5C51C560E3500457AC4 /* Common Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3480F5C41C560E3500457AC4 /* Common Functions.swift */; };
@@ -20,7 +21,6 @@
 		F19962F01C53638800B2B333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19962EE1C53638800B2B333 /* Main.storyboard */; };
 		F19962F21C53638800B2B333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19962F11C53638800B2B333 /* Assets.xcassets */; };
 		F19962F51C53638800B2B333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19962F31C53638800B2B333 /* LaunchScreen.storyboard */; };
-		F19963001C53638800B2B333 /* ProjectEulerMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19962FF1C53638800B2B333 /* ProjectEulerMachineTests.swift */; };
 		F199630C1C5363E300B2B333 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F199630B1C5363E300B2B333 /* ViewController.swift */; };
 		F19963141C5365B500B2B333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19963131C5365B500B2B333 /* AppDelegate.swift */; };
 		F19963161C5369BD00B2B333 /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19963151C5369BD00B2B333 /* Problem.swift */; };
@@ -53,6 +53,7 @@
 /* Begin PBXFileReference section */
 		341C55A61C5781A100357D46 /* Problem016.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem016.swift; sourceTree = "<group>"; };
 		341C55AB1C57826600357D46 /* BigInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigInteger.swift; sourceTree = "<group>"; };
+		341C56341C57B4CD00357D46 /* BigIntegerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigIntegerTests.swift; sourceTree = "<group>"; };
 		3480F5B61C5609D100457AC4 /* Problem009.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem009.swift; sourceTree = "<group>"; };
 		3480F5BE1C560C7E00457AC4 /* Problem010.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem010.swift; sourceTree = "<group>"; };
 		3480F5C41C560E3500457AC4 /* Common Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Common Functions.swift"; sourceTree = "<group>"; };
@@ -65,7 +66,6 @@
 		F19962F11C53638800B2B333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ProjectEulerMachine/Assets.xcassets; sourceTree = "<group>"; };
 		F19962F41C53638800B2B333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F19962FB1C53638800B2B333 /* ProjectEulerMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectEulerMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F19962FF1C53638800B2B333 /* ProjectEulerMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectEulerMachineTests.swift; sourceTree = "<group>"; };
 		F19963011C53638800B2B333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F199630B1C5363E300B2B333 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F19963131C5365B500B2B333 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +101,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		341C56321C57B45000357D46 /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Problems;
+			sourceTree = "<group>";
+		};
+		341C56331C57B49600357D46 /* Common Functions */ = {
+			isa = PBXGroup;
+			children = (
+				341C56341C57B4CD00357D46 /* BigIntegerTests.swift */,
+			);
+			path = "Common Functions";
+			sourceTree = "<group>";
+		};
 		3480F5C31C560DF000457AC4 /* Common Functions */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,7 +176,8 @@
 		F19962FE1C53638800B2B333 /* ProjectEulerMachineTests */ = {
 			isa = PBXGroup;
 			children = (
-				F19962FF1C53638800B2B333 /* ProjectEulerMachineTests.swift */,
+				341C56331C57B49600357D46 /* Common Functions */,
+				341C56321C57B45000357D46 /* Problems */,
 				F19963011C53638800B2B333 /* Info.plist */,
 			);
 			path = ProjectEulerMachineTests;
@@ -341,11 +357,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F19963001C53638800B2B333 /* ProjectEulerMachineTests.swift in Sources */,
 				F199631A1C536B9300B2B333 /* Problem.swift in Sources */,
 				F1C2CCFF1C56C6E300468A65 /* Problem015.swift in Sources */,
 				341C55AD1C57826600357D46 /* BigInteger.swift in Sources */,
 				F19963191C536B7200B2B333 /* Problem001.swift in Sources */,
+				341C56351C57B4CD00357D46 /* BigIntegerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

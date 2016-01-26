@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		341C55A71C5781A100357D46 /* Problem016.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341C55A61C5781A100357D46 /* Problem016.swift */; };
+		341C55AC1C57826600357D46 /* BigInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341C55AB1C57826600357D46 /* BigInteger.swift */; };
+		341C55AD1C57826600357D46 /* BigInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341C55AB1C57826600357D46 /* BigInteger.swift */; };
 		3480F5B71C5609D100457AC4 /* Problem009.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3480F5B61C5609D100457AC4 /* Problem009.swift */; };
 		3480F5BF1C560C7E00457AC4 /* Problem010.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3480F5BE1C560C7E00457AC4 /* Problem010.swift */; };
 		3480F5C51C560E3500457AC4 /* Common Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3480F5C41C560E3500457AC4 /* Common Functions.swift */; };
@@ -48,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		341C55A61C5781A100357D46 /* Problem016.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem016.swift; sourceTree = "<group>"; };
+		341C55AB1C57826600357D46 /* BigInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigInteger.swift; sourceTree = "<group>"; };
 		3480F5B61C5609D100457AC4 /* Problem009.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem009.swift; sourceTree = "<group>"; };
 		3480F5BE1C560C7E00457AC4 /* Problem010.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem010.swift; sourceTree = "<group>"; };
 		3480F5C41C560E3500457AC4 /* Common Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Common Functions.swift"; sourceTree = "<group>"; };
@@ -100,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				3480F5C41C560E3500457AC4 /* Common Functions.swift */,
+				341C55AB1C57826600357D46 /* BigInteger.swift */,
 			);
 			path = "Common Functions";
 			sourceTree = "<group>";
@@ -189,6 +195,7 @@
 				3480F5D61C56141900457AC4 /* Problem013.swift */,
 				3480F5DD1C5614F700457AC4 /* Problem014.swift */,
 				F1C2CCFD1C56C6E300468A65 /* Problem015.swift */,
+				341C55A61C5781A100357D46 /* Problem016.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -310,6 +317,7 @@
 				3480F5CD1C56103A00457AC4 /* Problem012.swift in Sources */,
 				F1C2CCF41C555F7100468A65 /* Problem004.swift in Sources */,
 				F1C2CCFA1C5565C100468A65 /* Problem007.swift in Sources */,
+				341C55AC1C57826600357D46 /* BigInteger.swift in Sources */,
 				F1C2CCEE1C54EA9200468A65 /* ProblemCell.swift in Sources */,
 				F1C2CCFE1C56C6E300468A65 /* Problem015.swift in Sources */,
 				F1C2CCF61C55640100468A65 /* Problem005.swift in Sources */,
@@ -321,6 +329,7 @@
 				F1C2CCF01C555D9000468A65 /* Problem002.swift in Sources */,
 				F1C2CCFC1C5569BC00468A65 /* Problem008.swift in Sources */,
 				3480F5C51C560E3500457AC4 /* Common Functions.swift in Sources */,
+				341C55A71C5781A100357D46 /* Problem016.swift in Sources */,
 				F19963181C536B7200B2B333 /* Problem001.swift in Sources */,
 				F19963161C5369BD00B2B333 /* Problem.swift in Sources */,
 				3480F5C91C560F4E00457AC4 /* Problem011.swift in Sources */,
@@ -335,6 +344,7 @@
 				F19963001C53638800B2B333 /* ProjectEulerMachineTests.swift in Sources */,
 				F199631A1C536B9300B2B333 /* Problem.swift in Sources */,
 				F1C2CCFF1C56C6E300468A65 /* Problem015.swift in Sources */,
+				341C55AD1C57826600357D46 /* BigInteger.swift in Sources */,
 				F19963191C536B7200B2B333 /* Problem001.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

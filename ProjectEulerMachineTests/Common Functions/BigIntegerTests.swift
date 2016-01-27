@@ -32,11 +32,18 @@ class BigIntegerTests: XCTestCase {
         let c = a.add(b)
         XCTAssertEqual("46", c.description)
     }
-
+    
     func testBIAdd02() {
         let a = BigInteger(int: 123)
         let b = BigInteger(int: 45)
         let c = a.add(b)
         XCTAssertEqual("168", c.description)
+    }
+    
+    func testBIAdd03() {
+        let a = BigInteger(int: 1768)
+        let b = BigInteger(int: 293383888)
+        let c = a.add(b)
+        XCTAssertEqual("293385656", c.description)
     }
 }

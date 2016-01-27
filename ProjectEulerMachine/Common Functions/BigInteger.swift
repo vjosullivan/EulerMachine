@@ -8,7 +8,7 @@
 
 struct BigInteger {
 
-    let value: [Int]
+    var value: [Int]
     let positive: Bool
 
     init(int: Int) {
@@ -34,10 +34,17 @@ struct BigInteger {
     func add(other: BigInteger) -> BigInteger {
         var index = 0
         if self.positive == other.positive {
+            let sc = self.value.count
+            let oc = other.value.count
+            let a1 = sc >= oc ? self.value : other.value
+            var a2 = sc >= oc ? other.value : self.value
+            for _ in 0..<abs(sc - oc) {
+                a2.append(0)
+            }
             var result = [Int]()
             var sum = 0
-            while index < self.value.count && index < other.value.count {
-                sum = self.value[index] + other.value[index]
+            while index < max(sc, oc) {
+                sum += a1[index] + a2[index]
                 result.append(sum % 10)
                 sum /= 10
                 index += 1

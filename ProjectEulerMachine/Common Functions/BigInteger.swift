@@ -8,8 +8,16 @@
 
 struct BigInteger {
 
+    // MARK: Properties
+
     let value: [Int]
     let positive: Bool
+
+    var length: Int {
+        return self.value.count
+    }
+
+    // MARK: Functions
 
     init(int: Int) {
         self.positive = (int >= 0)
@@ -31,28 +39,6 @@ struct BigInteger {
         self.value = array
     }
 
-    func add(other: BigInteger) -> BigInteger {
-        var index = 0
-        if self.positive == other.positive {
-            var result = [Int]()
-            var sum = 0
-            while index < self.value.count && index < other.value.count {
-                sum = self.value[index] + other.value[index]
-                result.append(sum % 10)
-                sum /= 10
-                index += 1
-            }
-            if sum > 0 { result.append(sum) }
-            return BigInteger(array: result, positive: positive)
-        } else {
-            return subtract(other)
-        }
-    }
-
-    func subtract(other: BigInteger) -> BigInteger {
-        return other
-    }
-
     var description: String {
         var desc = ""
         for i in (0..<value.count).reverse() {
@@ -61,3 +47,68 @@ struct BigInteger {
         return positive ? desc : "-" + desc
     }
 }
+
+// MARK: - Extensions
+// MARK: - Addition extension
+
+extension BigInteger {
+
+    func add(other: BigInteger) -> BigInteger {
+        if self.positive == other.positive {
+            if self.length >= other.length {
+                return BigInteger.add(self, to: other)
+            } else {
+                return BigInteger.add(other, to: self)
+            }
+        } else {
+            return subtract(other)
+        }
+    }
+
+    private static func add(a: BigInteger, to b: BigInteger) -> BigInteger {
+        // Pad b with leading zeros to make it same length as a.
+        let diff = a.length - b.length
+        var bValue = b.value
+        for _ in 0..<diff { bValue.append(0) }
+
+        var result = [Int]()
+        var index = 0
+        var carry = 0
+        while index < a.length {
+            carry += a.value[index] + bValue[index]
+            result.append(carry % 10)
+            carry /= 10
+            index += 1
+        }
+        if carry > 0 { result.append(carry) }
+        return BigInteger(array: result, positive: a.positive)
+    }
+}
+
+// MARK: Subtraction extension
+
+extension BigInteger {
+
+    func subtract(byOther: BigInteger) -> BigInteger {
+        return BigInteger(int: 0)
+    }
+}
+
+// MARK: Multiplication extension
+
+extension BigInteger {
+
+    func multiply(byOther: BigInteger) -> BigInteger {
+        return BigInteger(int: 0)
+    }
+}
+
+// MARK: Division extension
+
+extension BigInteger {
+
+    func divide(byOther: BigInteger) -> BigInteger {
+        return BigInteger(int: 0)
+    }
+}
+

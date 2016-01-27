@@ -32,7 +32,7 @@ class BigIntegerTests: XCTestCase {
         let c = a.add(b)
         XCTAssertEqual("46", c.description)
     }
-
+    
     func testBIAdd02() {
         let a = BigInteger(int: 123)
         let b = BigInteger(int: 45)
